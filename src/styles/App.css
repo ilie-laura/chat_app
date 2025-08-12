@@ -1,0 +1,6 @@
+/* App.css */
+.App {
+  background-color: #1e1e27;
+  min-height: 100vh; /* Asigură-te că fundalul acoperă întreaga înălțime a paginii */
+  color: white; /* Opțional, schimbă culoarea textului pentru a se potrivi */
+}
