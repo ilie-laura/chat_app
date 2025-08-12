@@ -10,28 +10,27 @@ body {
   overflow-x: hidden;
   height: 100%;
   background: #000;
-  border-color: #3b3b3b;
+  border-color: black;
   user-select: none;
 }
-/* Stil pentru header */
+
 .header {
-  width: 100%; /* Echivalent cu w-full */
-  padding-top: 1.25rem; /* py-5, 1.25rem = 20px */
-  padding-bottom: 1.25rem; /* py-5, 1.25rem = 20px */
-  padding-left: 1.25rem; /* px-5 */
-  padding-right: 1.25rem; /* px-5 */
+  width: 100%; 
+  padding-top: 1.25rem; 
+  padding-bottom: 1.25rem; 
+  padding-left: 1.25rem; 
+  padding-right: 1.25rem;
   display: flex;
-  justify-content: space-between; /* flex:justify-between */
-  align-items: center; /* items-center */
+  justify-content: space-between; 
+  align-items: center; 
 }
 
-/* Stil pentru nav */
 .nav {
     gap: 1rem;
   display: flex;
-  width: 100%; /* w-full */
+  width: 100%; 
   justify-content: space-between;
-  max-width: 100%; /* Efectiv, echivalent cu "screen-max-width", care ar putea fi o valoare definită în Tailwind, dar aici poți seta orice lățime dorită */
+  max-width: 100%; 
 }
 .screen-max-width{
 
@@ -45,7 +44,7 @@ canvas{
 }
 .nav-items {
   display: flex;
-  gap: 2rem; /* Spațiu între elementele de navigare */
+  gap: 2rem; /* Spatiu între elementele de navigare */
   justify-content: center;
   padding: 5px;
   color: #e2e2e2;
@@ -68,7 +67,7 @@ canvas{
 /* Hide the element on screens smaller than 768px */
 @media (max-width: 768px) {
   .hide-on-small .nav-items {
-    display: none; /* This will hide the element */
+    display: none; 
     font-size: 1rem;
     cursor:pointer;
   }

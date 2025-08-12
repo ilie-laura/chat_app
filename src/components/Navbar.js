@@ -6,7 +6,9 @@ function Navbar() {
   return (
     <header className="header">
         <nav className="nav">
+          <a href='/App'>
             <img src={appleImg} alt="Apple" width={14} height={18} />
+          </a>
           <div className='nav-items'>
             {navLists.map((nav,i)=>(
                 <div key={i}>
