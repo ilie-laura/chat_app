@@ -57,6 +57,7 @@ canvas{
 .nav-icons{
     display: flex;
     align-items: center;
+    margin-right: 2rem;
     gap: 1rem;
     width: 30px;
     height: 30px;
