@@ -44,3 +44,13 @@
   align-items: center;
   justify-content: space-between;
 }
+@media screen and (max-width: 489px) {
+  .section-heading {
+    font-size: 1.5rem;
+    flex-direction: row;
+  }
+  .extra {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

@@ -1,6 +1,6 @@
 .hero{
     width: 100%;
-    height: 80vh;
+    height: 90vh;
    background:black;
    position: relative;
    font-size: 30px;
@@ -49,7 +49,7 @@
     transition: 0.3s;
 }
 .btn:hover {
-    background: black;
+    background: rgb(43, 41, 41);
     border-radius: 5px;
      padding: 5px 5px;
     border: 1px solid white;

@@ -4,6 +4,7 @@ import '../styles/Highlights.css'
 import { useGSAP } from '@gsap/react'
 import { watchImg } from '../helpers';
 import {rightImg} from '../helpers';
+import VideoCar from './VideoCar.js';
 function Highlights() {
  useGSAP(() => {
   gsap.to('#title', {
@@ -37,6 +38,7 @@ function Highlights() {
 
       </div>
       </div>
+      <VideoCar/>
       </div>
     </section>
   )
